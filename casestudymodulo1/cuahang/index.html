@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/cuahang.css">
+        <link rel="stylesheet" href="css/buttom.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" rel="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+</head>
+
+<body>
+        <div id="Tieude">
+                <ul>
+                        <li><a href="javascript:;" title="Trang chủ"> Trang chủ </a></li>
+                        <li><a href="javascript:;" title="Giới thiệu"> Giới thiệu</a></li>
+                        <li><a href="javascript:;" title="Sản phẩm "> Sản phẩm </a></li>
+                        <li><a href="javascript:;" title="Khuyễn mãi"> Khuyễn mãi </a> </li>
+                        <li><a href="javascript:;" title="Dịch vụ"> Dịch vụ </a></li>
+                        <li><a href="javascript:;" title="Liên hệ"> Liên hệ </a></li>
+
+                </ul>
+        </div>
+        <div id="Banghieu">
+                <img src="image/banghieu.jpg" alt="Cửa hàng Nguyễn Sơn">
+
+        </div>
+        <div id="NoiDungChinh">
+                <div id="NoiDungBenTrai">
+                        <div style="border: 1px solid black;" id="danhmuctrai">
+                                <h4>Danh mục sản phẩm</h4>
+                                <ul>
+                                        <li style="width: 220px;"> <a href="image/anh1.jpg" title="Quạt hơi nước">Quạt
+                                                        máy</a></li>
+                                        <li> <a href="javascript:;" title="Máy lọc nước">Máy lọc nước</a></li>
+                                        <li> <a href="javascript:;" title="Quạt cơ">Quạt cơ</a></li>
+                                        <li> <a href="javascript:;" title="Bếp ga - Bếp từ">Bếp ga - Bếp từ</a></li>
+                                        <li> <a href="javascript:;" title="Nồi cơm điện">Nồi cơm điện</a></li>
+                                        <li> <a href="javascript:;" title="Phụ kiện">Phụ kiện</a></li>
+                                </ul>
+
+                        </div>
+                        <div style="margin-top: 100px; margin-bottom: 100px;">
+                                <img src="image/makano.jpg" alt="quangcao">
+                        </div>
+                        <div style="color: red;">
+                                <p style="font-weight: bold; font-size: large;">Điện máy Nguyễn Sơn.</p> ĐC: Triều
+                                Sơn Nam, Hương
+                                Vinh,<br> Hương Trà, Thừa Thiên Huế.
+                        </div>
+                        <div style="margin-top: 20px; margin-bottom: 890px; border: 2px solid rgb(245, 224, 224);">
+                                <a
+                                        href="https://www.google.com/maps/place/C%E1%BB%ADa+h%C3%A0ng+NGUY%E1%BB%84N+S%C6%A0N/@16.5137562,107.5680729,17z/data=!4m5!3m4!1s0x3141a7ef42991405:0x822631ff37d869e!8m2!3d16.5138869!4d107.5711492?hl=vi-VN">
+                                        <img src="image/map.png" alt="map">
+                                </a>
+                        </div>
+                </div>
+                <div id="NoiDungOGiua" class="chenhinh">
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[9].img,arrMayquat[9].description,arrMayquat[9].imgFooter);">
+                                <img src="image/hinhnho/anhnho1.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[10].img,arrMayquat[10].description,arrMayquat[10].imgFooter);">
+                                <img src="image/locnuoc/locnuocnho/locnho1.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[3].img,arrMayquat[3].description,arrMayquat[3].imgFooter);">
+                                <img src="image/hinhnho/anhnho4.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[15].img,arrMayquat[15].description,arrMayquat[15].imgFooter);">
+                                <img src="image/locnuoc/locnuocnho/locnho6.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[16].img,arrMayquat[16].description,arrMayquat[15].imgFooter);">
+                                <img src="image/locnuoc/locnuocnho/locnho7.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[6].img,arrMayquat[6].description,arrMayquat[6].imgFooter);">
+                                <img src="image/hinhnho/anhnho7.jpg" alt="quạt máy">
+                        </button>
+
+                </div>
+                <div id="NoiDungBenPhai" class="chenhinh">
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[1].img,arrMayquat[1].description,arrMayquat[1].imgFooter,arrMayquat[1].imgFooter);">
+                                <img src="image/hinhnho/anhnho 2.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[11].img,arrMayquat[11].description,arrMayquat[11].imgFooter);">
+                                <img src="image/locnuoc/locnuocnho/locnho2.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[4].img,arrMayquat[4].description,arrMayquat[4].imgFooter,arrMayquat[4].imgFooter);">
+                                <img src="image/hinhnho/anhnho5.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[14].img,arrMayquat[14].description,arrMayquat[14].imgFooter,arrMayquat[14].imgFooter);">
+                                <img src="image/locnuoc/locnuocnho/locnho5.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[8].img,arrMayquat[8].description,arrMayquat[8].imgFooter,arrMayquat[8].imgFooter);">
+                                <img src="image/hinhnho/anhnho9.jpg" alt="kalou">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[17].img,arrMayquat[17].description,arrMayquat[17].imgFooter,arrMayquat[17].imgFooter);">
+                                <img src="image/locnuoc/locnuocnho/locnho8.jpg" alt="quạt máy">
+                        </button>
+
+                </div>
+                <div id="NoiDungBenPhai2" class="chenhinh">
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[12].img,arrMayquat[12].description,arrMayquat[12].imgFooter);">
+                                <img src="image/locnuoc/locnuocnho/locnho3.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[2].img,arrMayquat[2].description,arrMayquat[2].imgFooter);">
+                                <img src="image/hinhnho/anhnho3.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[13].img,arrMayquat[13].description,arrMayquat[13].imgFooter);">
+                                <img src="image/locnuoc/locnuocnho/locnho4.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[5].img,arrMayquat[5].description,arrMayquat[5].imgFooter);">
+                                <img src="image/hinhnho/anhnho6.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[18].img,arrMayquat[18].description,arrMayquat[17].imgFooter);">
+                                <img src="image/locnuoc/locnuocnho/locnho9.jpg" alt="quạt máy">
+                        </button>
+
+                        <button class="button"
+                                onclick="changeModal(arrMayquat[7].img,arrMayquat[7].description,arrMayquat[7].imgFooter);">
+                                <img src="image/hinhnho/anhnho8.jpg" alt="quạt máy">
+                        </button>
+
+                </div>
+        </div>
+        <div id="BenDuoi" class="thongtin">
+                <div class="mangxahoi">
+                        <a href="javascript:;"><i class="fab fa-facebook"></i> </a>
+                        <a href="javascript:;"><i class="fas fa-phone"></i></a>
+                </div>
+        </div>
+
+
+        <div id="my-modal" class="modal">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Thông Tin Chi Tiết</h2>
+                        </div>
+                        <div class="modal-body">
+                                <p> <img id='anh'></p>
+                                <p id='description'></p>
+                        </div>
+                        <div class="modal-footer">
+                                <img src="" id='imgFooter'>
+                        </div>
+                </div>
+        </div>
+
+        <script>
+                function taobang(luulggio, dieukhien, congsuat, kieugio,
+                        do_on, lgnuoc, binhnuoc, kichthuoc, S_mat, hengio, ion, trongluong) {
+                        let a = "";
+                        a = a + `<table><tr><th>LƯU LƯỢNG GIÓ</th><td>m3/h</td><td>${luulggio}</td></tr>
+                    <tr><th>ĐIỆN ÁP</th><td></td><td>220V-50Hz</td></tr>
+                    <tr><th>ĐIỀU KHIỂN TỪ XA</th><td></td><td>${dieukhien}</td></tr>
+                    <tr><th>CÔNG SUẤT</th><td>(W)</td><td>${congsuat}</td></tr>
+                    <tr><th>HƯỚNG GIÓ THỔI</th><td></td>
+                    <td>4 chiều: tự động trái - phải<br>điều chỉnh lên - xuống</td></tr>
+                    <tr><th>KIỂU GIÓ THỔI</th><td></td><td>${kieugio}</td></tr>
+                    <tr> <th>TỐC ĐỘ</th><td></td><td>3 tốc độ</td></tr>
+                    <tr><th>ĐỘ ỒN</th><td>(dB)</td><td>&#8804 ${do_on}</td></tr>
+                    <tr> <th>LƯỢNG NƯỚC TIÊU THỤ</th><td>(L/h)</td><td>${lgnuoc}</td></tr>
+                    <tr><th>THỂ TÍCH BÌNH CHỨA NƯỚC</th><td>(L)</td><td>${binhnuoc}</td></tr>
+                    <tr> <th>KÍCH THƯỚC MÁY</th><td></td><td>${kichthuoc}</td></tr>
+                    <tr><th>DIỆN TÍCH LÀM MÁT</th><td>(m2)</td><td>${S_mat}</td></tr>
+                    <tr><th>CHỨC NĂNG HẸN GIỜ</th><td>(Giờ)</td><td>${hengio}</td></tr>
+                    <tr><th>CHỨC NĂNG ION</th><td></td><td>${ion}</td></tr>
+                    <tr><th>TRỌNG LƯỢNG MÁY</th><td>(kg)</td><td>${trongluong}</td></tr>
+                    </table>  `
+                        return a;
+                }
+
+
+                changeModal = function (str, description, imgFooter) {
+                        console.log(str, "description: ", description)
+                        document.getElementById('my-modal').style.display = 'block';
+                        document.getElementById("anh").src = str;
+                        document.getElementById("imgFooter").src = imgFooter;
+                        document.getElementById("description").innerHTML = description;
+                }
+                // Get DOM Elements
+                let arrMayquat = []
+                arrMayquat.push({
+
+                        img: './image/anh2.jpg',
+                        description: "",
+
+                })
+                arrMayquat.push({
+                        img: './image/anh2.jpg',
+                        description: taobang(5000, "Không", 180, "tiêu chuẩn", 55, "3-4",
+                                60, "602x412x1089", "35 - 45", "có", "không", 21),
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/anh3.jpg',
+                        description: taobang(3500, "Không", 100, "tiêu chuẩn", 65, "4-5",
+                                38, "480x360x1000", "25 - 30", "không", "không", 11.45),
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/anh4.jpg',
+                        description: taobang(4500, "Không", 175, "tiêu chuẩn", 50, "4-6",
+                                32, "600x400x910", "25 - 30", "không", "không", 14),
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/anh5.jpg',
+                        description: taobang(3500, "Không", 110, "tiêu chuẩn", 65, "4-5",
+                                30, "505x400x1025", "25 - 35", "không", "không", 11.2),
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/anh6.jpg',
+                        description: taobang(4000, "Không", 110, "tiêu chuẩn", 65, "4-5",
+                                30, "490x360x1075", "30 - 50", "không", "không", 11.2),
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/anh7.jpg',
+                        description: taobang(6000, "Không", 180, "tiêu chuẩn", 60, "5-6",
+                                45, "600x430x1160", "30 - 40", "không", "không", 16),
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/anh8.jpg',
+                        description: taobang(5000, "Không", 185, "tiêu chuẩn", 60, "3-4",
+                                55, "680x425x1240", "30 - 40", "không", "không", 19),
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/anh9.jpg',
+                        description: taobang(3500, "Không", 110, "tiêu chuẩn", 62, "2-3",
+                                35, "490 x 350 x 965", "20 - 35", "2", "không", 11),
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/anh1.jpg',
+                        description: taobang(5500, "Không", 190, "tiêu chuẩn", 60, "3-4",
+                                55, "600x400x1165", "40 - 50", "không", "không", 16.8),
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/locnuoc/loc1.jpg',
+                        description: " ",
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/locnuoc/loc2.jpg',
+                        description: " ",
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/locnuoc/loc3.jpg',
+                        description: " ",
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/locnuoc/loc4.jpg',
+                        description: " ",
+                        imgFooter: './image/Untitled.png',
+                })
+                arrMayquat.push({
+                        img: './image/locnuoc/loc5.jpg',
+                        description: " ",
+                        imgFooter: './image/locnuoc/loc5_5.jpg',
+                })
+                arrMayquat.push({
+                        img: './image/locnuoc/loc6.jpg',
+                        description: " ",
+                        imgFooter: './image/locnuoc/loc6_6.jpg',
+                })
+                arrMayquat.push({
+                        img: './image/locnuoc/loc7.jpg',
+                        description: " ",
+                        imgFooter: './image/locnuoc/loc7_7.jpg',
+                })
+                arrMayquat.push({
+                        img: './image/locnuoc/loc8.jpg',
+                        description: " ",
+                        imgFooter: './image/locnuoc/loc8_8.jpg',
+                })
+                arrMayquat.push({
+                        img: './image/locnuoc/loc9.jpg',
+                        description: " ",
+                        imgFooter: './image/locnuoc/loc9_9.jpg',
+                })
+
+                const modal = document.querySelector('#my-modal');
+                const closeBtn = document.querySelector('.close');
+
+
+                // Events
+
+                closeBtn.addEventListener('click', closeModal);
+                window.addEventListener('click', outsideClick);
+
+                // Open
+                function openModal() {
+                        modal.style.display = 'block';
+                }
+
+                // Close
+                function closeModal() {
+                        modal.style.display = 'none';
+                }
+
+                // Close If Outside Click
+                function outsideClick(e) {
+                        if (e.target == modal) {
+                                modal.style.display = 'none';
+                        }
+                }
+
+        </script>
+</body>
+
+</html>

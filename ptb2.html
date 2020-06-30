@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="nghiem"></p>
+    <script>
+        function ktrachanle(number) {
+            if (number % 2 == 0) {
+                return (1);
+            }
+            else {
+                return (0);
+            }
+        }
+        let array = [[1, 6, 8, 49, 1],
+        [2, 6, 9, 7, 3]];
+        function trave(array) {
+            let chan = "";
+            let le = "";
+            for (i = 0; i < array.length; i++) {
+                for (j = 0; j < array[i].length; j++) {
+                    if (ktrachanle(array[i][j])) {
+                        chan += array[i][j] + "; ";
+                    } else { le += array[i][j] + "; " }
+                }
+            } return (` số chãn là ${chan}<br>Số lẻ là: ${le}`)
+        }
+        document.write(trave(array) + "<br><br>");
+        // document.write(le);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#Tieude {
+    background: rgb(113, 240, 113);
+    height: 40px;
+}
+
+#Banghieu {
+    /* background: khaki; */
+    height: auto;
+    width: 1200px;
+}
+
+#NoiDungChinh #NoiDungBenTrai {
+    width: 240px;
+    background: rgb(227, 237, 240);
+    min-height: 400px;
+    float: left;
+}
+
+#NoiDungChinh #NoiDungOGiua {
+    width: 320px;
+    /* background: rgb(5, 112, 148); */
+    min-height: 400px;
+    float: left;
+    text-align: center;
+}
+
+#NoiDungChinh #NoiDungBenPhai {
+    width: 320px;
+    /* background: rgb(42, 4, 145); */
+    min-height: 400px;
+    float: left;
+    text-align: center;
+}
+
+#NoiDungChinh #NoiDungBenPhai2 {
+    width: 320px;
+    /* background: rgb(113, 61, 245); */
+    min-height: 400px;
+    float: left;
+    text-align: center;
+}
+
+#BenDuoi {
+    background: grey;
+    width: 1200px;
+    color: honeydew;
+    clear: left;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+#Tieude ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Tieude ul li {
+    list-style: none;
+    float: left;
+}
+
+#Tieude ul li a {
+    padding: 0px 40px 0px 20px;
+    text-decoration: none;
+    display: block;
+    border-right: 1px solid rgb(172, 248, 189);
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+#Banghieu img {
+    width: 1200px;
+    height: 300px;
+}
+
+#NoiDungChinh {
+    padding-top: 0px;
+}
+
+#NoiDungChinh #NoiDungBenTrai {
+    margin-top: 25px;
+}
+
+#NoiDungChinh #NoiDungBenTrai #danhmuctrai ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#NoiDungChinh #NoiDungBenTrai #danhmuctrai ul li {
+    list-style: none;
+    margin-top: 0px;
+}
+
+#NoiDungChinh #NoiDungBenTrai #danhmuctrai ul li a {
+    text-decoration: none;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    border-bottom: 1px solid #FFF;
+    background: url(../image/iconcheck.jpg) no-repeat 3px;
+    text-indent: 40px;
+}
+
+#NoiDungChinh #NoiDungBenTrai #danhmuctrai h4 {
+    background: #50c2f7 url(../image/icondanhmuc.png) no-repeat 5px 5px;
+    margin-top: 0px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 45px;
+    font-size: 18px;
+}
+
+/* #NoiDungChinh .chenhinh div {
+    border: 1px solid gray;
+    margin: 25px;
+} */
+
+#NoiDungChinh .chenhinh button {
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+.thongtin a {
+    padding: 10px;
+    font-size: larger;
+}

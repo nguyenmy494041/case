@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="buttom.css">
+
+</head>
+
+<body>
+    <button id="modal-btn" onclick="changeModal(arrMayquat[0].img,arrMayquat[0].description)" class="button">
+        <img src="anhnho 2.jpg" alt="quạt máy">
+    </button>
+    <button id="modal-btn" onclick="changeModal(arrMayquat[1].img,arrMayquat[1].description);" class="button">
+        <img src="anhnho 2.jpg" alt="quạt máy">
+    </button>
+    <div id="my-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Modal Header</h2>
+            </div>
+            <div class="modal-body">
+                <p> <img id='anh'></p>
+                <p id='description'></p>
+            </div>
+            <div class="modal-footer">
+                <h3>Modal Footer</h3>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        changeModal = function (str, description) {
+            document.getElementById('my-modal').style.display = 'block';
+            document.getElementById("anh").src = str;
+            document.getElementById("description").innerHTML = description;
+        }
+    </script>
+</body>
+
+</html>
